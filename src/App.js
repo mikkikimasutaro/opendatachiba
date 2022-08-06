@@ -12,6 +12,12 @@ import ResponsiveDrawer from './components/ResponsiveDrawer';
 
 //Amplify.configure(awsconfig);
  
+const NotFound = () => {
+    return(
+      <h2>ページが見つかりません</h2>
+    )
+  }
+
 function App() {
     return (
         <div className="App">
@@ -23,7 +29,7 @@ function App() {
                         <Route path='/population' element={<Population />} />
                         <Route path='/working' element={<Working />} />
                         <Route path='/info' element={<Info />} />
-                        {/**<Route path='/drop' element={<DropDirectory />} />*/}
+                        <Route element={NotFound}/>
                     </Routes>
                     </ResponsiveDrawer>
                 </div>

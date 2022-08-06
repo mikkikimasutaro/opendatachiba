@@ -10,7 +10,7 @@ class BarChartDisplay extends React.Component {
      render() {
 
       const CustomTooltip = ({ active, payload, label }) => {
-        console.log(payload);
+        // console.log(payload);
         // console.log(label);
       if (active && payload && payload.length) {
           return (
@@ -29,7 +29,7 @@ class BarChartDisplay extends React.Component {
           <div style={{ height: '400px', width: '100%' }}>
           <h3>棒グラフ</h3>
           <ResponsiveContainer height="100%" width="100%" >
-          <BarChart data={this.props.data} margin={{ top: 10, right: 10, bottom: 20, left: 10 }}>
+          <BarChart data={this.props.data} margin={{ top: 0, right: 10, bottom: 20, left: 10 }}>
            <CartesianGrid strokeDasharray="3 3" />
            <XAxis hide="true"/>
            <YAxis />

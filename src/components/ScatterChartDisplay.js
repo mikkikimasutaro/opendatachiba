@@ -9,10 +9,11 @@ class ScatterChartDisplay extends React.Component {
 
       render() {
         return (
-          <div style={{ height: 400, width: '100%' }}>
+          <div>
           <h3>散布図</h3>
+          <div style={{ height: '400px', width: '100%' }}>
           <ResponsiveContainer width="100%" height="100%">
-          <ScatterChart margin={{ top: 10, right: 10, bottom: 20, left: 30 }}>
+          <ScatterChart margin={{ top: 0, right: 10, bottom: 20, left: 25 }}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis
               dataKey={this.props.xAxis.field} 
@@ -30,6 +31,7 @@ class ScatterChartDisplay extends React.Component {
             <Scatter data={this.props.data} fill="#8884d8" />
           </ScatterChart>
           </ResponsiveContainer>
+          </div>
           </div>
         );
       }

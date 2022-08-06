@@ -143,7 +143,7 @@ class Population extends React.Component {
     <div >
       <h2>人口</h2>
       <FormControl sx={{ m: 1, minWidth: 120 }}>
-            <InputLabel htmlFor="xAxis-helper">選択</InputLabel>
+            <InputLabel htmlFor="xAxis-helper">表示データ1</InputLabel>
             <Select
               value={this.state.xAxis}
               onChange={this.handleChange}
@@ -156,7 +156,7 @@ class Population extends React.Component {
             </Select>
       </FormControl>
     <FormControl sx={{ m: 1, minWidth: 120 }}>
-       <InputLabel htmlFor="yAxis-helper">選択</InputLabel>
+       <InputLabel htmlFor="yAxis-helper">表示データ2</InputLabel>
             <Select
               value={this.state.yAxis}
               onChange={this.handleChange}
@@ -171,17 +171,18 @@ class Population extends React.Component {
     <Button onClick={handleClick}>
           データを表示
           <Search />
-        </Button>
-    <Button onClick={handleClickAddition}>
-       のデータと比較
-       <Search />
-     </Button>
-
+    </Button>
 
     <ChibaMap file={this.state.file} target={this.state.xAxis.field}/>
+    <div style={{ height: '500px', width: '100%' }}>
     <DataGridDisplay rows={this.state.rows} columns={this.state.columns}/> 
+    </div>
+    <div style={{ height: '500px', width: '100%' }}>
     <BarChartDisplay data={this.state.graphFile} xAxis={this.state.xAxis}/>
+    </div>
+    <div style={{ height: '500px', width: '100%' }}>
     <ScatterChartDisplay data={this.state.graphFile} xAxis={this.state.xAxis} yAxis={this.state.yAxis} />
+    </div>
 
 
     </div>

@@ -140,9 +140,8 @@ class Working extends React.Component {
   return (
     <div>
       <h2>労働</h2>
-    <form autoComplete="off">
       <FormControl sx={{ m: 1, minWidth: 120 }}>
-            <InputLabel htmlFor="xAxis-helper">選択</InputLabel>
+            <InputLabel htmlFor="xAxis-helper">表示データ1</InputLabel>
             <Select
               value={this.state.xAxis}
               onChange={this.handleChange}
@@ -154,17 +153,8 @@ class Working extends React.Component {
             {xAxis}
             </Select>
       </FormControl>
-     </form>
-        <Button onClick={handleClick}>
-          データを表示
-          <Search />
-        </Button>
-
-    <DataGridDisplay rows={this.state.rows} columns={this.state.columns}/> 
-    <BarChartDisplay data={this.state.file} xAxis={this.state.xAxis}/>
-
-    <FormControl sx={{ m: 1, minWidth: 120 }}>
-            <InputLabel htmlFor="yAxis-helper">選択</InputLabel>
+      <FormControl sx={{ m: 1, minWidth: 120 }}>
+            <InputLabel htmlFor="yAxis-helper">表示データ2</InputLabel>
             <Select
               value={this.state.yAxis}
               onChange={this.handleChange}
@@ -176,13 +166,20 @@ class Working extends React.Component {
             {yAxis}
             </Select>
     </FormControl>
-    <Button onClick={handleClickAddition}>
-       のデータと比較
-       <Search />
-     </Button>
+        <Button onClick={handleClick}>
+          データを表示
+          <Search />
+        </Button>
 
-
+    <div style={{ height: '500px', width: '100%' }}>
+    <DataGridDisplay rows={this.state.rows} columns={this.state.columns}/> 
+    </div>
+    <div style={{ height: '500px', width: '100%' }}>
+    <BarChartDisplay data={this.state.file} xAxis={this.state.xAxis}/>
+    </div>
+    <div style={{ height: '500px', width: '100%' }}>
     <ScatterChartDisplay data={this.state.file} xAxis={this.state.xAxis} yAxis={this.state.yAxis} />
+    </div>
 
    </div>
 

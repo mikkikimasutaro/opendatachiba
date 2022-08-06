@@ -1,4 +1,6 @@
-.paper {
-    margin-top: 10px;
-    margin-bottom: 10px;
+table,td,th {
+    border: solid;
+    border-collapse: collapse;
+    border-color: black;
+    border-width: thin;
 }

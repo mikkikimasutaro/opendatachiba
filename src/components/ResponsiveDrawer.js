@@ -143,7 +143,7 @@ function ResponsiveDrawer(props) {
           {props.children}
         </main>
         <footer>
-          <p >© 2022 Copyright chibaopendata.com All Rights Reserved.</p>
+          <p >© 2022 Copyright mikkikimasu.com All Rights Reserved.</p>
         </footer>
       </Box>
     </Box>

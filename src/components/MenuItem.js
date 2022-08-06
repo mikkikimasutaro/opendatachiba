@@ -13,7 +13,6 @@ import HomeIcon from '@mui/icons-material/Home';
 import PeopleIcon from '@mui/icons-material/People';
 import WorkIcon from '@mui/icons-material/Work';
 import CurrencyYenIcon from '@mui/icons-material/CurrencyYen';
-import ResponsiveDrawerListItem from './ResponsiveDrawerListItem';
 
 
 function MenuItem(props) {
@@ -46,7 +45,7 @@ function MenuItem(props) {
         </ListItem>
         <ListItem button component={Link} to="/working" >
           <ListItemIcon>
-            <PeopleIcon />
+            <WorkIcon />
           </ListItemIcon>
           <ListItemText primary="労働" />
         </ListItem>

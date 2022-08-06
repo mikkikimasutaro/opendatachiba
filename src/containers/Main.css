@@ -1,0 +1,14 @@
+.main {
+    width: 100%;
+    text-align: center;
+}
+
+.autocomplete {
+    margin: auto;
+}
+
+.titleImage {
+    max-width: 240px;
+    min-width: 240px;
+}
+

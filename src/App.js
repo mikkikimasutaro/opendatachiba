@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Main from "./containers/Main";
+import Info from './containers/Info';
+import Population from "./containers/Population";
+import Working from './containers/Working';
 
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import ResponsiveDrawer from './components/ResponsiveDrawer';
+
+//import Amplify from 'aws-amplify';
+//import awsconfig from './aws-exports';
+
+//Amplify.configure(awsconfig);
+ 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <BrowserRouter>
+                <div>
+                    <ResponsiveDrawer>
+                    <Routes>
+                        <Route path='/' element={<Main />} />
+                        <Route path='/population' element={<Population />} />
+                        <Route path='/working' element={<Working />} />
+                        <Route path='/info' element={<Info />} />
+                        {/**<Route path='/drop' element={<DropDirectory />} />*/}
+                    </Routes>
+                    </ResponsiveDrawer>
+                </div>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;

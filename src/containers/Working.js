@@ -96,6 +96,10 @@ class Working extends React.Component {
 
     const handleClick = (event, value)  => {
       const tempRows = [];
+      if(this.state.xAxis == ""){
+        console.log("xAxis is null.");
+        return;
+      } else 
       fileOpen(value).then(
         file => {
           // for ScatterChart
@@ -108,6 +112,9 @@ class Working extends React.Component {
           dataGridColumns.push(columns[1]); // industory
           dataGridColumns.push(columns[2]); // officeScale
           dataGridColumns.push(columns[columns.indexOf(this.state.xAxis)]);
+          if(this.state.yAxis !== ""){
+            dataGridColumns.push(columns[columns.indexOf(this.state.yAxis)]);
+          }
           this.setState({columns: dataGridColumns});
           console.log(dataGridColumns);
 
@@ -118,10 +125,12 @@ class Working extends React.Component {
             row.id = index;
             row.industry = file[index].industry;
             row.officeScale = file[index].officeScale;
-            let rowVar = this.state.xAxis.field;
-            //console.log(rowVar);
-            row[rowVar] = file[index][rowVar];
-            //console.log(row);
+            let rowX = this.state.xAxis.field;
+            row[rowX] = file[index][rowX];
+            if(this.state.yAxis !== ""){
+              let rowY = this.state.yAxis.field;
+              row[rowY] = file[index][rowY];
+            }
             tempRows.push(row);
           }
 
@@ -140,7 +149,8 @@ class Working extends React.Component {
   return (
     <div>
       <h2>労働</h2>
-      <FormControl sx={{ m: 1, minWidth: 120 }}>
+      <form>
+      <FormControl sx={{ m: 1, width: 240 }}>
             <InputLabel htmlFor="xAxis-helper">表示データ1</InputLabel>
             <Select
               value={this.state.xAxis}
@@ -153,7 +163,7 @@ class Working extends React.Component {
             {xAxis}
             </Select>
       </FormControl>
-      <FormControl sx={{ m: 1, minWidth: 120 }}>
+      <FormControl sx={{ m: 1, width: 240}}>
             <InputLabel htmlFor="yAxis-helper">表示データ2</InputLabel>
             <Select
               value={this.state.yAxis}
@@ -166,6 +176,7 @@ class Working extends React.Component {
             {yAxis}
             </Select>
     </FormControl>
+    </form>
         <Button onClick={handleClick}>
           データを表示
           <Search />
@@ -175,7 +186,7 @@ class Working extends React.Component {
     <DataGridDisplay rows={this.state.rows} columns={this.state.columns}/> 
     </div>
     <div style={{ height: '500px', width: '100%' }}>
-    <BarChartDisplay data={this.state.file} xAxis={this.state.xAxis}/>
+    <BarChartDisplay data={this.state.file} xAxis={this.state.xAxis} primalyKey={"industry"} groupBy={"officeScale"}/>
     </div>
     <div style={{ height: '500px', width: '100%' }}>
     <ScatterChartDisplay data={this.state.file} xAxis={this.state.xAxis} yAxis={this.state.yAxis} />

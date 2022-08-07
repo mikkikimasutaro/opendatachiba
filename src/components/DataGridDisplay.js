@@ -9,8 +9,8 @@ class DataGridDisplay extends React.Component {
       render() {
 
         const handleChangeDataGrid = (event, value)  => {
-          console.log(event);
-          console.log(value);
+          //console.log(event);
+          //console.log(value);
         }
         
         let displayData = "項目を選択するとここにデータが表示されます。";

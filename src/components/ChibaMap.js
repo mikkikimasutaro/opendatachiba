@@ -27,7 +27,7 @@ class ChibaMap extends React.Component {
             let cityData = nextProps.file.find((v) => v.city == cityName);
             let opacityBase = nextProps.file.find((v) => v.city == "県計"); 
             let opacity = cityData[target] / opacityBase[target] * 10; // * 10 : adjustment
-            console.log("cityName :" + cityName + ",cityData :" + cityData + ",opacity : " + opacity + ",opacityBase : " + opacityBase);
+            // console.log("cityName :" + cityName + ",cityData :" + cityData + ",opacity : " + opacity + ",opacityBase : " + opacityBase);
   
             linkList[i].setAttribute("fill" , "#f44336"); // #f44336 : MUI red 
             linkList[i].setAttribute("fill-opacity" , opacity);

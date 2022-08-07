@@ -18,6 +18,7 @@ import PeopleIcon from '@mui/icons-material/People';
 import WorkIcon from '@mui/icons-material/Work';
 import CurrencyYenIcon from '@mui/icons-material/CurrencyYen';
 import ResponsiveDrawerListItem from './ResponsiveDrawerListItem';
+import Footer from '../components/Footer'
 
 const drawerWidth = 240;
 
@@ -142,9 +143,7 @@ function ResponsiveDrawer(props) {
         <main className="content">
           {props.children}
         </main>
-        <footer>
-          <p >© 2022 Copyright mikkikimasu.com All Rights Reserved.</p>
-        </footer>
+        <Footer />
       </Box>
     </Box>
   );

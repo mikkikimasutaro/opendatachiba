@@ -74,11 +74,11 @@ class Population extends React.Component {
     super(props);
     this.state = {
       file: "",
-      graphFile: "",
+      graphData: "",
       rows: [],
       columns: [],
-      xAxis: 4,
-      yAxis: 4
+      xAxis: "",
+      yAxis: ""
     };
   }
 
@@ -97,14 +97,18 @@ class Population extends React.Component {
 
     const handleClick = (event, value)  => {
       const tempRows = this.state.rows;
+      if(this.state.xAxis == ""){
+        console.log("xAxis is null.");
+        return;
+      }
       fileOpen(value).then(
         file => {
           // for ScatterChart
           this.setState({file: file});
-          let graphFile = file.filter(function( item ) {
+          let graphData = file.filter(function( item ) {
             return item.city !== '県計';            
           });
-          this.setState({graphFile: graphFile});
+          this.setState({graphData: graphData});
           //console.log(this.state);
   
           // for data grid
@@ -112,6 +116,9 @@ class Population extends React.Component {
           dataGridColumns.push(columns[0]); // ID
           dataGridColumns.push(columns[1]); // city
           dataGridColumns.push(columns[columns.indexOf(this.state.xAxis)]);
+          if(this.state.yAxis !== ""){
+            dataGridColumns.push(columns[columns.indexOf(this.state.yAxis)]);
+          }
           this.setState({columns: dataGridColumns});
           // console.log(dataGridColumns);
 
@@ -121,9 +128,12 @@ class Population extends React.Component {
             let row = {};
             row.id = index;
             row.city = file[index].city;
-            let rowVar = this.state.xAxis.field;
-            //console.log(rowVar);
-            row[rowVar] = file[index][rowVar];
+            let rowX = this.state.xAxis.field;
+            row[rowX] = file[index][rowX];
+            if(this.state.yAxis !== ""){
+              let rowY = this.state.yAxis.field;
+              row[rowY] = file[index][rowY];
+            }
             //console.log(row);
             tempRows.push(row);
           }
@@ -142,7 +152,7 @@ class Population extends React.Component {
   return (
     <div >
       <h2>人口</h2>
-      <FormControl sx={{ m: 1, minWidth: 120 }}>
+      <FormControl sx={{ m: 1, width: 240 }}>
             <InputLabel htmlFor="xAxis-helper">表示データ1</InputLabel>
             <Select
               value={this.state.xAxis}
@@ -155,7 +165,7 @@ class Population extends React.Component {
             {xAxis}
             </Select>
       </FormControl>
-    <FormControl sx={{ m: 1, minWidth: 120 }}>
+    <FormControl sx={{ m: 1, width: 240 }}>
        <InputLabel htmlFor="yAxis-helper">表示データ2</InputLabel>
             <Select
               value={this.state.yAxis}
@@ -178,10 +188,10 @@ class Population extends React.Component {
     <DataGridDisplay rows={this.state.rows} columns={this.state.columns}/> 
     </div>
     <div style={{ height: '500px', width: '100%' }}>
-    <BarChartDisplay data={this.state.graphFile} xAxis={this.state.xAxis}/>
+    <BarChartDisplay data={this.state.graphData} xAxis={this.state.xAxis} primalyKey={"city"}/>
     </div>
     <div style={{ height: '500px', width: '100%' }}>
-    <ScatterChartDisplay data={this.state.graphFile} xAxis={this.state.xAxis} yAxis={this.state.yAxis} />
+    <ScatterChartDisplay data={this.state.graphData} xAxis={this.state.xAxis} yAxis={this.state.yAxis} />
     </div>
 
 

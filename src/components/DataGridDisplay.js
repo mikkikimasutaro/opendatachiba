@@ -15,6 +15,7 @@ class DataGridDisplay extends React.Component {
         
         let displayData = "項目を選択するとここにデータが表示されます。";
         if(this.props.rows.length != 0){
+          console.log(this.props.rows);
         displayData = <DataGrid
                         rows={this.props.rows}
                         columns={this.props.columns}

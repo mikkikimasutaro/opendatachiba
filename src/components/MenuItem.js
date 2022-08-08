@@ -13,6 +13,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import PeopleIcon from '@mui/icons-material/People';
 import WorkIcon from '@mui/icons-material/Work';
 import CurrencyYenIcon from '@mui/icons-material/CurrencyYen';
+import CoronavirusIcon from '@mui/icons-material/Coronavirus';
 
 
 function MenuItem(props) {
@@ -54,6 +55,12 @@ function MenuItem(props) {
             <CurrencyYenIcon />
           </ListItemIcon>
           <ListItemText primary="経済" />
+        </ListItem>
+        <ListItem button component={Link} to="/covid19" >
+          <ListItemIcon>
+            <CoronavirusIcon />
+          </ListItemIcon>
+          <ListItemText primary="新型コロナ" />
         </ListItem>
       </List>
       <Divider />

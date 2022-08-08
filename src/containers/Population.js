@@ -152,6 +152,7 @@ class Population extends React.Component {
   return (
     <div >
       <h2>人口</h2>
+      <form>
       <FormControl sx={{ m: 1, width: 240 }}>
             <InputLabel htmlFor="xAxis-helper">表示データ1</InputLabel>
             <Select
@@ -178,12 +179,13 @@ class Population extends React.Component {
             {yAxis}
             </Select>
     </FormControl>
+    </form>
     <Button onClick={handleClick}>
           データを表示
           <Search />
     </Button>
 
-    <ChibaMap file={this.state.file} target={this.state.xAxis.field}/>
+    <ChibaMap file={this.state.file} target={this.state.xAxis.field} type="Population"/>
     <div style={{ height: '500px', width: '100%' }}>
     <DataGridDisplay rows={this.state.rows} columns={this.state.columns}/> 
     </div>

@@ -17,6 +17,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import PeopleIcon from '@mui/icons-material/People';
 import WorkIcon from '@mui/icons-material/Work';
 import CurrencyYenIcon from '@mui/icons-material/CurrencyYen';
+import CoronavirusIcon from '@mui/icons-material/Coronavirus';
 import ResponsiveDrawerListItem from './ResponsiveDrawerListItem';
 import Footer from '../components/Footer'
 
@@ -72,6 +73,12 @@ function ResponsiveDrawer(props) {
             icon={<CurrencyYenIcon />}
             text="経済"
           />    
+        <ResponsiveDrawerListItem
+            to="/covid19"
+            onClick={closeDrawerNav}
+            icon={<CoronavirusIcon />}
+            text="新型コロナ"
+          />    
       </List>
     </div>
   );
@@ -98,8 +105,8 @@ function ResponsiveDrawer(props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
-            千葉県オープンデータ
+          <Typography variant="subtitle1" noWrap component="div">
+            （非公式）千葉県オープンデータ
           </Typography>
         </Toolbar>
       </AppBar>

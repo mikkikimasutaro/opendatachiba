@@ -3,6 +3,9 @@
 
 データは[千葉県オープンデータサイト](https://www.pref.chiba.lg.jp/gyoukaku/opendata/index.html)から取得しています。
 
+# 製作・運用
+twitter : [@mikkikimasun](https://twitter.com/mikkikimasun)
+
 # 掲載データ
 
 ## 人口関連
@@ -58,3 +61,4 @@
 
 |  掲載元データタイトル  |  本サイトでの対応状況  |
 | ---- | ---- |
+| 市町村別1週間当たり人口10万人当たり新規感染者数の推移 | 〇 |

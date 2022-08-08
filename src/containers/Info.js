@@ -11,6 +11,9 @@ const markdownText = `
 
 データは[千葉県オープンデータサイト](https://www.pref.chiba.lg.jp/gyoukaku/opendata/index.html)から取得しています。
 
+# 製作・運用
+twitter : [@mikkikimasun](https://twitter.com/mikkikimasun)
+
 # 掲載データ
 
 ## 人口関連
@@ -60,6 +63,13 @@ const markdownText = `
 |令和3年毎月勤労統計調査地方調査年報 事業所規模100人以上（第3表）産業大分類別、性別、就業形態別、常用労働者1人平均月間出勤日数及び労働時間|×|
 |令和3年毎月勤労統計調査地方調査年報 特別調査（第6表）産業、性別常用労働者数、一人平均月間出勤日数、一人平均通常日１日の実労働時間、一人平均月間きまって支給する現金給与額|×|
 |令和3年毎月勤労統計調査地方調査年報 特別調査（第7表）産業、一人平均通常日１日の実労働時間階級別常用労働者数|×|
+
+## 新型コロナ関連
+参照元：[千葉県の感染状況等](https://www.pref.chiba.lg.jp/kenfuku/kansenshou/ncov/kansen-shiyo-sihyou.html)
+
+|  掲載元データタイトル  |  本サイトでの対応状況  |
+| ---- | ---- |
+| 市町村別1週間当たり人口10万人当たり新規感染者数の推移 | 〇 |
 `;
 
 class Info extends React.Component {

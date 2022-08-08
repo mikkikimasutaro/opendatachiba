@@ -4,6 +4,7 @@ import Info from './containers/Info';
 import Population from "./containers/Population";
 import Working from './containers/Working';
 import PrivacyPolicy from './containers/PrivacyPolicy';
+import Covid19 from './containers/Covid19';
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import ResponsiveDrawer from './components/ResponsiveDrawer';
@@ -31,6 +32,7 @@ function App() {
                         <Route path='/working' element={<Working />} />
                         <Route path='/info' element={<Info />} />
                         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
+                        <Route path='/covid19' element={<Covid19 />} />
                         <Route element={NotFound}/>
                     </Routes>
                     </ResponsiveDrawer>

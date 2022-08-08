@@ -67,7 +67,7 @@ class BarChartDisplay extends React.Component {
       }
 
         return (
-          <div style={{ height: '400px', width: '100%' }}>
+          <div style={{ height: '100%', width: '100%' }}>
           <h3>棒グラフ</h3>
           {displayData}
           </div>

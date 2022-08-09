@@ -60,6 +60,15 @@ class ChibaMap extends React.Component {
               linkList[i].setAttribute("fill" , "#f44336"); // #f44336 : MUI red 
               linkList[i].setAttribute("fill-opacity" , opacity);
 
+              var svgText = cityName + " : " + cityData[cityName];
+              var onClickStr = "document.getElementById('plate').setAttribute('visibility','visible'); document.getElementById('platetext').firstChild.nodeValue='" + svgText + "';this.setAttribute('stroke','deeppink');";
+
+              linkList[i].setAttribute("onclick",onClickStr);
+              linkList[i].setAttribute("onmousemove","document.getElementById('plate').setAttribute('transform','translate(500,750)')");
+//              linkList[i].setAttribute("onmousemove","document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+75)+','+(evt.layerY-75)+')')");
+              linkList[i].setAttribute("onmouseout","document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#f39ec0');");
+
+
               try {
               } catch (e) {
                 console.log(e.message);

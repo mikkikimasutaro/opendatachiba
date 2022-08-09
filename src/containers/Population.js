@@ -96,7 +96,7 @@ class Population extends React.Component {
     }
 
     const handleClick = (event, value)  => {
-      const tempRows = this.state.rows;
+      const tempRows = [];
       if(this.state.xAxis == ""){
         console.log("xAxis is null.");
         return;

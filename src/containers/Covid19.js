@@ -102,17 +102,15 @@ class Covid19 extends React.Component {
 
   render() {
     const handleChange = (event, value)  => {
-      console.log(value);
       this.setState({sliderValue: value});
       const target = getAfterNdays(firstDay,value);
       this.setState({target: target});
-      console.log(target);
     } 
 
   return (
     <div>
       <h2>新型コロナ</h2>
-      <p>新規感染者数の週間平均</p>
+      <p>人口10万人あたりの新規感染者数の週間平均</p>
       <Box sx={{ width: 300 ,margin: 'auto'}}>
       <Slider
         aria-label="Always visible"

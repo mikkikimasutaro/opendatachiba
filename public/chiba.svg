@@ -233,234 +233,233 @@
     </clipPath>
   </g>
   <g id="linkList">
-    <a xlink:href="/千葉市" clip-path="url(#clip12100)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12100" fill="#ffffff" stroke="#000000" stroke-width="4" oname="千葉市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12100)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12100" fill="#ffffff" stroke="#000000" stroke-width="4" oname="千葉市"  />
       <use xlink:href="#12100" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/銚子市" clip-path="url(#clip12202)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12202" fill="#ffffff" stroke="#000000" stroke-width="4" oname="銚子市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12202)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12202" fill="#ffffff" stroke="#000000" stroke-width="4" oname="銚子市"  />
       <use xlink:href="#12202" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/市川市" clip-path="url(#clip12203)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12203" fill="#ffffff" stroke="#000000" stroke-width="4" oname="市川市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12203)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12203" fill="#ffffff" stroke="#000000" stroke-width="4" oname="市川市"  />
       <use xlink:href="#12203" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/船橋市" clip-path="url(#clip12204)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12204" fill="#ffffff" stroke="#000000" stroke-width="4" oname="船橋市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12204)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12204" fill="#ffffff" stroke="#000000" stroke-width="4" oname="船橋市"  />
       <use xlink:href="#12204" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/館山市" clip-path="url(#clip12205)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12205" fill="#ffffff" stroke="#000000" stroke-width="4" oname="館山市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12205)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12205" fill="#ffffff" stroke="#000000" stroke-width="4" oname="館山市"  />
       <use xlink:href="#12205" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/木更津市" clip-path="url(#clip12206)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12206" fill="#ffffff" stroke="#000000" stroke-width="4" oname="木更津市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12206)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12206" fill="#ffffff" stroke="#000000" stroke-width="4" oname="木更津市"  />
       <use xlink:href="#12206" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/松戸市" clip-path="url(#clip12207)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12207" fill="#ffffff" stroke="#000000" stroke-width="4" oname="松戸市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12207)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12207" fill="#ffffff" stroke="#000000" stroke-width="4" oname="松戸市"  />
       <use xlink:href="#12207" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/野田市" clip-path="url(#clip12208)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12208" fill="#ffffff" stroke="#000000" stroke-width="4" oname="野田市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12208)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12208" fill="#ffffff" stroke="#000000" stroke-width="4" oname="野田市"  />
       <use xlink:href="#12208" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/茂原市" clip-path="url(#clip12210)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12210" fill="#ffffff" stroke="#000000" stroke-width="4" oname="茂原市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12210)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12210" fill="#ffffff" stroke="#000000" stroke-width="4" oname="茂原市"  />
       <use xlink:href="#12210" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/成田市" clip-path="url(#clip12211)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12211" fill="#ffffff" stroke="#000000" stroke-width="4" oname="成田市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12211)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12211" fill="#ffffff" stroke="#000000" stroke-width="4" oname="成田市"  />
       <use xlink:href="#12211" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/佐倉市" clip-path="url(#clip12212)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12212" fill="#ffffff" stroke="#000000" stroke-width="4" oname="佐倉市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12212)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12212" fill="#ffffff" stroke="#000000" stroke-width="4" oname="佐倉市"  />
       <use xlink:href="#12212" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/東金市" clip-path="url(#clip12213)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12213" fill="#ffffff" stroke="#000000" stroke-width="4" oname="東金市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12213)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12213" fill="#ffffff" stroke="#000000" stroke-width="4" oname="東金市"  />
       <use xlink:href="#12213" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/旭市" clip-path="url(#clip12215)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12215" fill="#ffffff" stroke="#000000" stroke-width="4" oname="旭市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12215)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12215" fill="#ffffff" stroke="#000000" stroke-width="4" oname="旭市"  />
       <use xlink:href="#12215" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/習志野市" clip-path="url(#clip12216)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12216" fill="#ffffff" stroke="#000000" stroke-width="4" oname="習志野市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12216)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12216" fill="#ffffff" stroke="#000000" stroke-width="4" oname="習志野市"  />
       <use xlink:href="#12216" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/柏市" clip-path="url(#clip12217)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12217" fill="#ffffff" stroke="#000000" stroke-width="4" oname="柏市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12217)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12217" fill="#ffffff" stroke="#000000" stroke-width="4" oname="柏市"  />
       <use xlink:href="#12217" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/勝浦市" clip-path="url(#clip12218)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12218" fill="#ffffff" stroke="#000000" stroke-width="4" oname="勝浦市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12218)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12218" fill="#ffffff" stroke="#000000" stroke-width="4" oname="勝浦市"  />
       <use xlink:href="#12218" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/市原市" clip-path="url(#clip12219)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12219" fill="#ffffff" stroke="#000000" stroke-width="4" oname="市原市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12219)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12219" fill="#ffffff" stroke="#000000" stroke-width="4" oname="市原市"  />
       <use xlink:href="#12219" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/流山市" clip-path="url(#clip12220)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12220" fill="#ffffff" stroke="#000000" stroke-width="4" oname="流山市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12220)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12220" fill="#ffffff" stroke="#000000" stroke-width="4" oname="流山市"  />
       <use xlink:href="#12220" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/八千代市" clip-path="url(#clip12221)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12221" fill="#ffffff" stroke="#000000" stroke-width="4" oname="八千代市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12221)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12221" fill="#ffffff" stroke="#000000" stroke-width="4" oname="八千代市"  />
       <use xlink:href="#12221" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/我孫子市" clip-path="url(#clip12222)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12222" fill="#ffffff" stroke="#000000" stroke-width="4" oname="我孫子市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12222)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12222" fill="#ffffff" stroke="#000000" stroke-width="4" oname="我孫子市"  />
       <use xlink:href="#12222" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/鴨川市" clip-path="url(#clip12223)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12223" fill="#ffffff" stroke="#000000" stroke-width="4" oname="鴨川市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12223)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12223" fill="#ffffff" stroke="#000000" stroke-width="4" oname="鴨川市"  />
       <use xlink:href="#12223" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/鎌ヶ谷市" clip-path="url(#clip12224)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12224" fill="#ffffff" stroke="#000000" stroke-width="4" oname="鎌ヶ谷市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12224)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12224" fill="#ffffff" stroke="#000000" stroke-width="4" oname="鎌ヶ谷市"  />
       <use xlink:href="#12224" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/君津市" clip-path="url(#clip12225)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12225" fill="#ffffff" stroke="#000000" stroke-width="4" oname="君津市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12225)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12225" fill="#ffffff" stroke="#000000" stroke-width="4" oname="君津市"  />
       <use xlink:href="#12225" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/富津市" clip-path="url(#clip12226)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12226" fill="#ffffff" stroke="#000000" stroke-width="4" oname="富津市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12226)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12226" fill="#ffffff" stroke="#000000" stroke-width="4" oname="富津市"  />
       <use xlink:href="#12226" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/浦安市" clip-path="url(#clip12227)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12227" fill="#ffffff" stroke="#000000" stroke-width="4" oname="浦安市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12227)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12227" fill="#ffffff" stroke="#000000" stroke-width="4" oname="浦安市"  />
       <use xlink:href="#12227" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/四街道市" clip-path="url(#clip12228)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12228" fill="#ffffff" stroke="#000000" stroke-width="4" oname="四街道市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12228)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12228" fill="#ffffff" stroke="#000000" stroke-width="4" oname="四街道市"  />
       <use xlink:href="#12228" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/袖ヶ浦市" clip-path="url(#clip12229)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12229" fill="#ffffff" stroke="#000000" stroke-width="4" oname="袖ヶ浦市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12229)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12229" fill="#ffffff" stroke="#000000" stroke-width="4" oname="袖ヶ浦市"  />
       <use xlink:href="#12229" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/八街市" clip-path="url(#clip12230)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12230" fill="#ffffff" stroke="#000000" stroke-width="4" oname="八街市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12230)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12230" fill="#ffffff" stroke="#000000" stroke-width="4" oname="八街市"  />
       <use xlink:href="#12230" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/印西市" clip-path="url(#clip12231)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12231" fill="#ffffff" stroke="#000000" stroke-width="4" oname="印西市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12231)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12231" fill="#ffffff" stroke="#000000" stroke-width="4" oname="印西市"  />
       <use xlink:href="#12231" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/印西市" clip-path="url(#clip12325)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12325" fill="#ffffff" stroke="#000000" stroke-width="4" oname="印西市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12325)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12325" fill="#ffffff" stroke="#000000" stroke-width="4" oname="印西市"  />
       <use xlink:href="#12325" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/印西市" clip-path="url(#clip12328)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12328" fill="#ffffff" stroke="#000000" stroke-width="4" oname="印西市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12328)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12328" fill="#ffffff" stroke="#000000" stroke-width="4" oname="印西市"  />
       <use xlink:href="#12328" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/白井市" clip-path="url(#clip12232)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12232" fill="#ffffff" stroke="#000000" stroke-width="4" oname="白井市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12232)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12232" fill="#ffffff" stroke="#000000" stroke-width="4" oname="白井市"  />
       <use xlink:href="#12232" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/富里市" clip-path="url(#clip12233)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12233" fill="#ffffff" stroke="#000000" stroke-width="4" oname="富里市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12233)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12233" fill="#ffffff" stroke="#000000" stroke-width="4" oname="富里市"  />
       <use xlink:href="#12233" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/南房総市" clip-path="url(#clip12234)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12234" fill="#ffffff" stroke="#000000" stroke-width="4" oname="南房総市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12234)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12234" fill="#ffffff" stroke="#000000" stroke-width="4" oname="南房総市"  />
       <use xlink:href="#12234" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/匝瑳市" clip-path="url(#clip12235)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12235" fill="#ffffff" stroke="#000000" stroke-width="4" oname="匝瑳市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12235)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12235" fill="#ffffff" stroke="#000000" stroke-width="4" oname="匝瑳市"  />
       <use xlink:href="#12235" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/香取市" clip-path="url(#clip12236)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12236" fill="#ffffff" stroke="#000000" stroke-width="4" oname="香取市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12236)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12236" fill="#ffffff" stroke="#000000" stroke-width="4" oname="香取市"  />
       <use xlink:href="#12236" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/山武市" clip-path="url(#clip12237)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12237" fill="#ffffff" stroke="#000000" stroke-width="4" oname="山武市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12237)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12237" fill="#ffffff" stroke="#000000" stroke-width="4" oname="山武市"  />
       <use xlink:href="#12237" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/いすみ市" clip-path="url(#clip12238)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12238" fill="#ffffff" stroke="#000000" stroke-width="4" oname="いすみ市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12238)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12238" fill="#ffffff" stroke="#000000" stroke-width="4" oname="いすみ市"  />
       <use xlink:href="#12238" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/酒々井町" clip-path="url(#clip12322)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12322" fill="#ffffff" stroke="#000000" stroke-width="4" oname="酒々井町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12322)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12322" fill="#ffffff" stroke="#000000" stroke-width="4" oname="酒々井町"  />
       <use xlink:href="#12322" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/栄町" clip-path="url(#clip12329)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12329" fill="#ffffff" stroke="#000000" stroke-width="4" oname="栄町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12329)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12329" fill="#ffffff" stroke="#000000" stroke-width="4" oname="栄町"  />
       <use xlink:href="#12329" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/神崎町" clip-path="url(#clip12342)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12342" fill="#ffffff" stroke="#000000" stroke-width="4" oname="神崎町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12342)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12342" fill="#ffffff" stroke="#000000" stroke-width="4" oname="神崎町"  />
       <use xlink:href="#12342" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/多古町" clip-path="url(#clip12347)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12347" fill="#ffffff" stroke="#000000" stroke-width="4" oname="多古町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12347)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12347" fill="#ffffff" stroke="#000000" stroke-width="4" oname="多古町"  />
       <use xlink:href="#12347" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/東庄町" clip-path="url(#clip12349)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12349" fill="#ffffff" stroke="#000000" stroke-width="4" oname="東庄町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12349)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12349" fill="#ffffff" stroke="#000000" stroke-width="4" oname="東庄町"  />
       <use xlink:href="#12349" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/大網白里市" clip-path="url(#clip12402)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12402" fill="#ffffff" stroke="#000000" stroke-width="4" oname="大網白里市" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12402)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12402" fill="#ffffff" stroke="#000000" stroke-width="4" oname="大網白里市"  />
       <use xlink:href="#12402" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/九十九里町" clip-path="url(#clip12403)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12403" fill="#ffffff" stroke="#000000" stroke-width="4" oname="九十九里町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12403)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12403" fill="#ffffff" stroke="#000000" stroke-width="4" oname="九十九里町"  />
       <use xlink:href="#12403" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/芝山町" clip-path="url(#clip12409)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12409" fill="#ffffff" stroke="#000000" stroke-width="4" oname="芝山町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12409)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12409" fill="#ffffff" stroke="#000000" stroke-width="4" oname="芝山町"  />
       <use xlink:href="#12409" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/横芝光町" clip-path="url(#clip12410)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12410" fill="#ffffff" stroke="#000000" stroke-width="4" oname="横芝光町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12410)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12410" fill="#ffffff" stroke="#000000" stroke-width="4" oname="横芝光町"  />
       <use xlink:href="#12410" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/一宮町" clip-path="url(#clip12421)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12421" fill="#ffffff" stroke="#000000" stroke-width="4" oname="一宮町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12421)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12421" fill="#ffffff" stroke="#000000" stroke-width="4" oname="一宮町"  />
       <use xlink:href="#12421" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/睦沢町" clip-path="url(#clip12422)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12422" fill="#ffffff" stroke="#000000" stroke-width="4" oname="睦沢町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12422)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12422" fill="#ffffff" stroke="#000000" stroke-width="4" oname="睦沢町"  />
       <use xlink:href="#12422" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/長生村" clip-path="url(#clip12423)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12423" fill="#ffffff" stroke="#000000" stroke-width="4" oname="長生村" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12423)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12423" fill="#ffffff" stroke="#000000" stroke-width="4" oname="長生村"  />
       <use xlink:href="#12423" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/白子町" clip-path="url(#clip12424)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12424" fill="#ffffff" stroke="#000000" stroke-width="4" oname="白子町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12424)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12424" fill="#ffffff" stroke="#000000" stroke-width="4" oname="白子町"  />
       <use xlink:href="#12424" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/長柄町" clip-path="url(#clip12426)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12426" fill="#ffffff" stroke="#000000" stroke-width="4" oname="長柄町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12426)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12426" fill="#ffffff" stroke="#000000" stroke-width="4" oname="長柄町"  />
       <use xlink:href="#12426" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/長南町" clip-path="url(#clip12427)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12427" fill="#ffffff" stroke="#000000" stroke-width="4" oname="長南町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12427)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12427" fill="#ffffff" stroke="#000000" stroke-width="4" oname="長南町"  />
       <use xlink:href="#12427" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/大多喜町" clip-path="url(#clip12441)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12441" fill="#ffffff" stroke="#000000" stroke-width="4" oname="大多喜町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12441)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12441" fill="#ffffff" stroke="#000000" stroke-width="4" oname="大多喜町"  />
       <use xlink:href="#12441" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/御宿町" clip-path="url(#clip12443)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12443" fill="#ffffff" stroke="#000000" stroke-width="4" oname="御宿町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12443)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12443" fill="#ffffff" stroke="#000000" stroke-width="4" oname="御宿町"  />
       <use xlink:href="#12443" stroke="#000000" stroke-width="0.5" />
     </a>
-    <a xlink:href="/鋸南町" clip-path="url(#clip12463)" fill="none" fill-opacity="1" stroke-linejoin="round">
-      <use xlink:href="#12463" fill="#ffffff" stroke="#000000" stroke-width="4" oname="鋸南町" onmouseover="document.getElementById('plate').setAttribute('visibility','visible');this.setAttribute('stroke','deeppink');document.getElementById('platetext').firstChild.nodeValue=this.getAttribute('oname');" onmousemove="document.getElementById('plate').setAttribute('transform','translate('+(evt.layerX+8)+','+(evt.layerY+8+32)+')')" onmouseout="document.getElementById('plate').setAttribute('visibility','hidden');this.setAttribute('stroke','#000000');" />
+    <a  clip-path="url(#clip12463)" fill="none" fill-opacity="1" stroke-linejoin="round">
+      <use xlink:href="#12463" fill="#ffffff" stroke="#000000" stroke-width="4" oname="鋸南町"  />
       <use xlink:href="#12463" stroke="#000000" stroke-width="0.5" />
     </a>
   </g>
-  <g id="plate" visibility="hidden">
-    <rect x="0" y="-32" width="64" height="16" fill="#ffffff" stroke="#000000" stroke-width="1" opacity="1.0" />
-    <text x="32" y="-21" id="platetext" text-anchor="middle" font-size="10" fill="#222222">
-    </text>
+  <g id="plate" visibility="hidden" >
+   <text x="0" y="0" id="platetext" text-anchor="middle" font-size="24" fill="#222222">
+   </text>
   </g>
 </svg>

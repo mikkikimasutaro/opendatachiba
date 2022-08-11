@@ -9,7 +9,7 @@ function PrivacyPolicy() {
             <h1>プライバシーポリシー</h1>
             <h2>私たちのサイト、および権利について</h2>
             <Typography component="p" >
-            私たちのサイトアドレスは https://opendatachiba.mikkikimasu.com です。
+            私たちのサイトアドレスは https://mikkikimasu.com です。
             私たちのサイトにおけるコンテンツの著作権はこのサイトの運営者である私たちに帰属します。
             </Typography>
             <h2>お問い合わせ</h2>

@@ -71,7 +71,7 @@ const columns = [
 ];
 
 const firstDay = '2021/03/01';
-const lastDay = '2022/08/05';
+const lastDay = '2022/08/10';
 
 class Covid19 extends React.Component {
   dateDiff = 0;

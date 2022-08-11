@@ -106,7 +106,7 @@ function ResponsiveDrawer(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="subtitle1" noWrap component="div">
-            （非公式）千葉県オープンデータ
+              （非公式）千葉県データグラフ
           </Typography>
         </Toolbar>
       </AppBar>

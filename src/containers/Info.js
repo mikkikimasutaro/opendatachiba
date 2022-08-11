@@ -7,7 +7,7 @@ import remarkGfm from 'remark-gfm'
 
 const markdownText = `
 # 本サイトについて
-本サイト（千葉県オープンデータ）は千葉県の人口・労働・経済等のデータを見やすくまとめたサイトです。
+本サイト（（非公式）千葉県データグラフ）は千葉県の人口・労働・経済等のデータを見やすくまとめたサイトです。
 
 データは[千葉県オープンデータサイト](https://www.pref.chiba.lg.jp/gyoukaku/opendata/index.html)から取得しています。
 

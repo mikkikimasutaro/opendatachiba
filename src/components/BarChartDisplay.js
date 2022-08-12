@@ -1,4 +1,3 @@
-import { toBeInTheDocument } from '@testing-library/jest-dom/dist/matchers';
 import React from 'react';
 import {Tooltip,Legend,Bar,ResponsiveContainer,XAxis,YAxis,CartesianGrid,BarChart,Label,LabelList} from 'recharts';
 
@@ -49,7 +48,7 @@ class BarChartDisplay extends React.Component {
           }
 
           // データを結合 @ToDo
-          console.log(bar);
+          console.log(bar[0].concat(bar[1]));
 
 
 

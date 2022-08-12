@@ -30,7 +30,6 @@ function App() {
                     <ResponsiveDrawer>
                     <Routes>
                         <Route path='/sitemap.xml' component={XML} />
-
                         <Route path='/' element={<Main />} />
                         <Route path='/population' element={<Population />} />
                         <Route path='/working' element={<Working />} />

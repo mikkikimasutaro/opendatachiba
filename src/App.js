@@ -1,4 +1,6 @@
 import "./App.css";
+import XML from './sitemap.xml';    
+
 import Main from "./containers/Main";
 import Info from './containers/Info';
 import Population from "./containers/Population";
@@ -27,6 +29,8 @@ function App() {
                 <div>
                     <ResponsiveDrawer>
                     <Routes>
+                        <Route path='/sitemap.xml' component={XML} />
+
                         <Route path='/' element={<Main />} />
                         <Route path='/population' element={<Population />} />
                         <Route path='/working' element={<Working />} />

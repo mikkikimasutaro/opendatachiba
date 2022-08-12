@@ -27,9 +27,11 @@ function App() {
         <div className="App">
             <BrowserRouter>
                 <div>
+                <Routes>
+                    <Route path='/sitemap.xml' element={XML} />
+                </Routes>
                     <ResponsiveDrawer>
                     <Routes>
-                        <Route path='/sitemap.xml' component={XML} />
                         <Route path='/' element={<Main />} />
                         <Route path='/population' element={<Population />} />
                         <Route path='/working' element={<Working />} />

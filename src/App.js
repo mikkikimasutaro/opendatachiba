@@ -38,7 +38,6 @@ function App() {
                         <Route path='/info' element={<Info />} />
                         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
                         <Route path='/covid19' element={<Covid19 />} />
-                        <Route element={NotFound}/>
                     </Routes>
                     </ResponsiveDrawer>
                 </div>

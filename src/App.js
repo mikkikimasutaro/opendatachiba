@@ -26,9 +26,8 @@ function App() {
     return (
         <div className="App">
             <BrowserRouter>
-                <div>
                 <Routes>
-                    <Route path='/sitemap.xml' element={XML} />
+                    <Route path='/sitemap.xml' />
                 </Routes>
                     <ResponsiveDrawer>
                     <Routes>
@@ -38,9 +37,14 @@ function App() {
                         <Route path='/info' element={<Info />} />
                         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
                         <Route path='/covid19' element={<Covid19 />} />
+                        <Route path="*" element={
+                                               <main style={{ padding: "1rem" }}>
+                                                  <p>There's nothing here!</p>
+                                               </main>
+                                                } 
+                        />
                     </Routes>
                     </ResponsiveDrawer>
-                </div>
             </BrowserRouter>
         </div>
     );

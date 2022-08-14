@@ -1,5 +1,4 @@
 import "./App.css";
-import XML from './sitemap.xml';    
 
 import Main from "./containers/Main";
 import Info from './containers/Info';
@@ -15,12 +14,6 @@ import ResponsiveDrawer from './components/ResponsiveDrawer';
 //import awsconfig from './aws-exports';
 
 //Amplify.configure(awsconfig);
- 
-const NotFound = () => {
-    return(
-      <h2>ページが見つかりません</h2>
-    )
-  }
 
 function App() {
     return (

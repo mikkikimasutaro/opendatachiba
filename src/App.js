@@ -7,7 +7,7 @@ import Working from './containers/Working';
 import PrivacyPolicy from './containers/PrivacyPolicy';
 import Covid19 from './containers/Covid19';
 
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
 import ResponsiveDrawer from './components/ResponsiveDrawer';
 
 //import Amplify from 'aws-amplify';
@@ -19,6 +19,7 @@ function App() {
     return (
         <div className="App">
             <BrowserRouter>
+            <Link to="/sitemap.xml">sitemap</Link>
                     <ResponsiveDrawer>
                     <Routes>
                         <Route path='/sitemap.xml' />
